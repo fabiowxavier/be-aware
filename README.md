@@ -155,12 +155,12 @@ Briefly discuss potential future improvements or features that could be added to
 
 ### Resources
 
-https://www.highfivedesign.co/
-https://www.portlandseogrowth.com/keywords-for/mental-health/
-https://gemini.google.com/app
-https://www.betterup.com/blog/mental-health-awareness#:~:text=Mental%20health%20awareness%20is%20the,and%20their%20conditions%20go%20untreated.
-https://www.rethink.org/aboutus/what-we-do/advice-and-information-service/get-help-now/
-https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/
-https://getbootstrap.com/docs/4.6/getting-started/introduction/
-https://github.com/dashboard
-https://fonts.google.com/
+- https://www.highfivedesign.co/
+- https://www.portlandseogrowth.com/keywords-for/mental-health/
+- https://gemini.google.com/app
+- https://www.betterup.com/blog/mental-health-awareness#:~:text=Mental%20health%20awareness%20is%20the,and%20their%20conditions%20go%20untreated.
+- https://www.rethink.org/aboutus/what-we-do/advice-and-information-service/get-help-now/
+- https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/
+- https://getbootstrap.com/docs/4.6/getting-started/introduction/
+- https://github.com/dashboard
+- https://fonts.google.com/
