@@ -60,52 +60,58 @@ This project aims to raise awareness about mental health and connect people stru
 
 
 ## Design Decisions
-https://www.highfivedesign.co/
+
+
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+ ![Wireframe layout](image-3.png)
+  - Wireframe and layout planned of a viewport on small screen and big screen 
+
+### Color palettes
+
+![color pallette](image.png) ![color pallette2](image-1.png) ![color pallette3](image-2.png)
+
+- Wireframe and layout planned of a viewport on small screen and big screen 
+
+### Fonts
+
+   #### Primary Font : Fredoka.                     
+   #### Secondary font : Sans-serif
+  
+  
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+
+ #### Color Contrast:
+
+- I use a color palette that provides adequate contrast between text and background elements, ensuring readability for users with visual impairments.
+
+
+#### Alt Text for Images:
+
+- I provide descriptive alt text for all images, accurately conveying their content to users with visual impairments and those using screen readers.
+
+
+#### Additional Considerations:
+
+- I use appropriate heading levels (h1, h2, h3, etc.) to structure the content, making it easier for users with screen readers to navigate.
+- I ensure that all elements can be navigated and activated using a keyboard, without relying solely on a mouse.
+- I provide clear focus indicators to help users understand which element is currently active.
+- I use a responsive design to ensure that my applications are accessible on various devices, including mobile and tablets.
+- I implement ARIA attributes to provide additional semantic information to assistive technologies.
+
+Please not that some elements might not be used*
+
+
 
 ## AI Tools Usage
 
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+ - I used Gemini, a large language model, to assist me in writing this README. Gemini helped me generate ideas, improve the clarity and structure of the content, and ensure that the README is informative and engaging
 
-## Features Implementation
 
-### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
-
-### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
-
-### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
-
-## AI Tools Usage
-
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
-
-## Testing and Validation
+## Testing and Validation 
+#### websites 
+ - https://jigsaw.w3.org/css-validator/
+ - https://validator.w3.org/
 
 ### Testing Results
 Summarize the results of testing across different devices and screen sizes.  
@@ -117,11 +123,6 @@ Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.
 Include the results of the validation process.  
 **Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
-## AI Tools Usage
-
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
 
 ## Deployment
 
@@ -130,11 +131,6 @@ Briefly describe the deployment process to GitHub Pages or another cloud platfor
 Mention any specific challenges encountered during deployment.  
 **Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
 
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
 
 ## Reflection on Development Process
 
@@ -149,9 +145,22 @@ Provide any additional insights gained during the project and thoughts on the ov
 **Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
 ## Code Attribution
+
 Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
 **Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
 **Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+### Resources
+
+https://www.highfivedesign.co/
+https://www.portlandseogrowth.com/keywords-for/mental-health/
+https://gemini.google.com/app
+https://www.betterup.com/blog/mental-health-awareness#:~:text=Mental%20health%20awareness%20is%20the,and%20their%20conditions%20go%20untreated.
+https://www.rethink.org/aboutus/what-we-do/advice-and-information-service/get-help-now/
+https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+https://github.com/dashboard
+https://fonts.google.com/
