@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*-----------------------------------------Navbar / header */
+
+.navbar-custom{
+    padding: 0;  
+    
+   
+    }
+
+    .navbar-toggler-icon {
+        border-color: transparent;
+        padding-right: 20px;
+    }
+
+header {
+    background-color: #55a2a6;
+}
+.alert {
+    margin: 0;
+    padding: 0px;
+    background-color: #EBC09E;
+    border-radius:0;
+    border-style: none;
+    color: #06264c;
+}
+
+.navbar-brand {
+    
+    font-family: "Fredoka", sans-serif;
+    color: #06264c;
+    font-size: 30px;
+    margin: 0px;
+    padding-left: 20px;
+  }
+
+
+  
+
+  /*-----------------------------------------Special text/paddings/margins*/
+
+  .uppercase {
+    text-transform: uppercase;
+
+.general-sub {
+    font-family:"Exo", sans-serif ;
+    font-weight: 300;
+color: #fafafa;
+}
+  }
+
+  /*-----------------------------------------footer*/
+
+  footer {
+    background-color: #AAADB2;
+  }

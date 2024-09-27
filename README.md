@@ -74,7 +74,8 @@ This project aims to raise awareness about mental health and connect people stru
 
 ### Fonts
 
-   #### Primary Font : Fredoka.                     
+   #### Logo : Fredoka.   
+   #### Primary font : Exo                  
    #### Secondary font : Sans-serif
   
   
