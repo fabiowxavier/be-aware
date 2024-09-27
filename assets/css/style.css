@@ -9,12 +9,7 @@
     
    
     }
-
-    .navbar-toggler-icon {
-        border-color: transparent;
-        padding-right: 20px;
-    }
-
+    
 header {
     background-color: #55a2a6;
 }
@@ -27,10 +22,12 @@ header {
     color: #06264c;
 }
 
+
+
 .navbar-brand {
     
     font-family: "Fredoka", sans-serif;
-    color: #06264c;
+    color: white;
     font-size: 30px;
     margin: 0px;
     padding-left: 20px;
@@ -54,5 +51,12 @@ color: #fafafa;
   /*-----------------------------------------footer*/
 
   footer {
-    background-color: #AAADB2;
+      background-color: #AAADB2;
+      color: #00567b;
+      min-height: 120px;
+      margin: 0;
+  }
+
+  .footer-details {
+    display: block;
   }
