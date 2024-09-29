@@ -76,28 +76,17 @@ header {
     justify-content: space-between;
 }
 
-
-
-
-  
-
   /*-----------------------------------------Special text/paddings/margins*/
 
   .uppercase {
     text-transform: uppercase;
-
-.general-sub {
-    font-family:"Exo", sans-serif ;
-    font-weight: 300;
-color: #fafafa;
-}
   }
+
 
   /*-----------------------------------------footer*/
 
   footer {
       background-color: #AAADB2;
-      color: #00567b;
       min-height: 120px;
       margin: 0;
   }
@@ -105,3 +94,24 @@ color: #fafafa;
   .footer-details {
     display: flex;
   }
+
+  .general-sub {
+    font-family:"Exo", sans-serif ;
+    font-weight: 500;
+    color: #fafafa;
+    padding-top: 20px ;
+    font-size: 15px;
+}
+
+  .help-links li a i {
+    padding: 12px 0;
+    font-size: 20px;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.help-links{
+word-spacing: 40px;
+}
