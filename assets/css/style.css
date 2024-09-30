@@ -103,8 +103,9 @@ header {
   }
   
   .help-links li {
-    flex-grow: 1; /* Ensure icons take up equal space */
+
     margin: 0; /* Remove margins for better responsiveness */
+    
   }
   
   .help-links li a i {
@@ -117,10 +118,11 @@ header {
     align-items: center;
  
 }
-.list-inline .help-links {
+.list-inline {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 0;
+  list-style: none;
+  justify-content: space-evenly;
 }
   
 
