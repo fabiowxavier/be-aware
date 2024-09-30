@@ -102,7 +102,7 @@ header {
     position: relative;
 }
 
-.
+
 .btn {
   color: #fafafa;
   background-color: #55a2a6;
@@ -153,6 +153,20 @@ header {
 #info {
   margin-bottom: 30px;
 }
+
+
+
+ /*-----------------------------------------Selfhelp- 5 steps*/
+
+.health-mh {
+  font-family: "EXO", sans-serif;
+  display: flex;
+}
+
+.health-mh h4 {
+  font-weight: 500;
+}
+
 
 
 
