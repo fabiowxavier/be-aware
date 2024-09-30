@@ -44,6 +44,7 @@ header {
     border: 0;
     background-color: transparent;
     outline: none;
+    
   }
   
   .navbar-toggler-icon {
@@ -84,34 +85,30 @@ header {
 
 
   /*-----------------------------------------footer*/
-
   footer {
-      background-color: #AAADB2;
-      min-height: 120px;
-      margin: 0;
+    display: flex; /* Use flexbox for responsive layout */
+    justify-content: center; /* Center icons horizontally */
+    align-items: center; /* Center icons vertically */
+    background-color: #AAADB2;
+    min-height: 120px;
+    margin: 0;
   }
-
-  .footer-details {
+  
+  .help-links {
     display: flex;
+    justify-content: space-between; /* Adjust spacing as needed */
+    align-items: center;
+    padding: 0 auto px; /* Add padding to create space around icons */
   }
-
-  .general-sub {
-    font-family:"Exo", sans-serif ;
-    font-weight: 500;
-    color: #fafafa;
-    padding-top: 20px ;
-    font-size: 15px;
-}
-
+  
+  .help-links li {
+    flex-grow: 1; /* Ensure icons take up equal space */
+    margin: 0; /* Remove margins for better responsiveness */
+  }
+  
   .help-links li a i {
     padding: 12px 0;
     font-size: 20px;
     color: #fafafa;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-.help-links{
-word-spacing: 40px;
-}
+  }
