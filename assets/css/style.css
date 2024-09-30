@@ -77,6 +77,10 @@ header {
   /*-----------------------------------------hero/jumbotron*/
   .jumbotron {
     background-image: url("../images/hands.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-size: cover;
     background-position: center;
     color: #cc972d; 
@@ -84,6 +88,10 @@ header {
     margin-bottom: 0px;
     height: 100vh;
     font-family: "EXO", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .
@@ -98,12 +106,27 @@ header {
 }
 
 .hero-section .container {
-  margin-top: 110px;
+  margin-bottom: 190px;
 }
 
 .hero-section .container h1 {
   font-weight: 500;
 }
+/*-----------------------------------------Information index*/
+.container-fluid {
+  text-align: center;
+  margin-top: 30px; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.info-head-bottom {
+  margin-top: 30px;
+}
+
+.info-para {
+  margin-top: 30px;
+}
+
   /*-----------------------------------------footer*/
   footer {
     display: flex; 
