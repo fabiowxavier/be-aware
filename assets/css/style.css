@@ -76,7 +76,7 @@ header {
 }
   /*-----------------------------------------hero/jumbotron*/
   .jumbotron {
-    background-image: url("assets/images/hands.jpg");
+    background-image: url("../images/hands.jpg");
     background-size: cover;
     background-position: center;
     color: white; /* Adjust text color for visibility */
