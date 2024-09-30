@@ -86,9 +86,9 @@ header {
 
   /*-----------------------------------------footer*/
   footer {
-    display: flex; /* Use flexbox for responsive layout */
-    justify-content: center; /* Center icons horizontally */
-    align-items: center; /* Center icons vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     background-color: #AAADB2;
     min-height: 120px;
     margin: 0;
@@ -96,21 +96,21 @@ header {
   
   .help-links {
     display: flex;
-    justify-content: center; /* Adjust spacing as needed */
+    justify-content: center; 
     align-items: center;
-    padding: 0 20px; /* Add padding to create space around icons */
+    padding: 0 20px; 
     
   }
   
   .help-links li {
 
-    margin: 0; /* Remove margins for better responsiveness */
+    margin: 0; 
     
   }
   
   .help-links li a i {
     padding: 12px 0;
-    font-size: 20px;
+    font-size: 15px;
     color: #fafafa;
     transition: all 0.35s ease-in-out;
     display: flex;
@@ -119,10 +119,16 @@ header {
  
 }
 .list-inline {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-  justify-content: space-evenly;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 0;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.list-inline-item p {
+  color: #fafafa;
+  font-size: small;
 }
   
 
