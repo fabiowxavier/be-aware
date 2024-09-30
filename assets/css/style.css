@@ -6,8 +6,6 @@
 
 .navbar-custom{
     padding: 0;  
-    
-   
     }
     
 header {
@@ -76,14 +74,14 @@ header {
     padding-right: 20px;
     justify-content: space-between;
 }
-
-  /*-----------------------------------------Special text/paddings/margins*/
-
-  .uppercase {
-    text-transform: uppercase;
-  }
-
-
+  /*-----------------------------------------hero/jumbotron*/
+  .jumbotron {
+    background-image: url("assets/images/hands.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for visibility */
+    text-align: center;
+}
   /*-----------------------------------------footer*/
   footer {
     display: flex; 
