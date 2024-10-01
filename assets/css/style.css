@@ -10,12 +10,14 @@
     
 header {
     background-color: #55a2a6;
+    
    
 }
 
 .navbar{
   box-shadow: 0px 5px 5px#799394;
   z-index: 99;
+ 
 }
 
 .alert {
@@ -252,11 +254,12 @@ header {
   
   /*-----------------------------------------footer*/
   footer {
+  
     display: flex; 
     justify-content: center; 
     align-items: center; 
     background-color: #cc972d;
-    height: 90px;
+    height: 120px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -264,44 +267,24 @@ header {
     z-index: -1;
   }
   
-  .help-links {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    padding: 0 20px; 
-    
-  }
+.footer-info {
+  justify-content: center;
+  padding-bottom: 50px;
   
-  .help-links li {
+}
 
-    margin: 0; 
-    
-  }
+.footer-sec {
+  padding-bottom: 0px;
+  align-items: center;
+  justify-content: center;
   
-  .help-links li a i {
-    padding-bottom: 12px;
-    font-size: 15px;
-    color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
-.list-inline {
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    list-style: none;
-    justify-content: space-evenly;
 }
 
-.list-inline-item p {
-  color: #fafafa;
-  font-size: small;
+.footer-sec a {
+  background-color: transparent;
+  color: #1166cf;
+  padding: 0 40px;
 }
-#footer-details {
-  width: 100%;
+.button-ic i {
+  color: #ffffff;
 }
-
