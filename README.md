@@ -111,7 +111,7 @@ Please not that some elements might not be used*
 
 
 ## Testing and Validation 
-### websites 
+### Validation websites 
 - https://validator.w3.org/
 - https://jigsaw.w3.org/css-validator/
 
