@@ -71,7 +71,6 @@ This project aims to raise awareness about mental health and connect people stru
 
 ![COLOR-PALLET"](assets/images/pallet.png) ![COLOR-PALLET1"](assets/images/pallet-1.png) ![COLOR-PALLET2"](assets/images/pallet-2.png)
 
-- Wireframe and layout planned of a viewport on small screen and big screen 
 
 ### Fonts
 
@@ -116,18 +115,19 @@ Please not that some elements might not be used*
 - https://validator.w3.org/
 - https://jigsaw.w3.org/css-validator/
 
-### CSS code Testing
+### CSS code Validation
 
 ![CSS VALIDATOR RESULT](assets/images/css-vali.png)
- ### Html Code Testing
+ ### Html Code Validation
 
-#### Test Index page
+#### Validation Index page
   ![index validatior image](assets/images/index-vali.png)
  
- #### Test Selfhelp page
- ![selfhelp-validator](assets/images/self-help vali.png)
 
-  #### Test Form page
+#### Validation Self help page
+ ![selfhelpvalidator](assets/images/self-help-vali.png)
+
+  #### Validation Form page
    ![form-validator](assets/images/form-vali.png)
 
 
@@ -168,46 +168,47 @@ Please not that some elements might not be used*
  #### Sideways Small Screen Problem
  ![Sideways Small screen problem](assets/images/form-smprob.png)
 
-During testing I found that in small screens when changed the orientation of the screen from portrait to landscape the form gets engulfed by the navbar and footer.Please not that this problem still not fixed*
+During testing I found that in small screens when changed the orientation of the screen from portrait to landscape the form gets engulfed by the navbar and footer.
 
-#### Tools used for finding problems.
+Please not that this problem still not fixed*
 
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+### Tools used for finding problems.
 
-### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+ #### Chrome DevTools
+
+ During the project's structural development phase, I encountered various obstacles. Through the use of Chrome DevTools, I was able to effectively diagnose and rectify these problems.
+
 
 
 ## Deployment
 
+#### Deployment Link
+https://fabiowxavier.github.io/be-aware/
+
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+The deployment process went smoothly overall, however, I did identify a small problem with the contacts.html form when viewed on mobile devices.
 
-
-## Reflection on Development Process
-
-### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
-
-### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+At first, I was worried about this project, but as I worked on it, I got more comfortable. There were a few things that were tricky and took longer than I expected. Even though I learned a lot about HTML, CSS, and Bootstrap in the past four weeks, it took some time to really understand it all. But once I started building the website, I remembered more and was able to put it together.
 
 ## Code Attribution
 
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+**Bootstrap:**
+
+This project uses Bootstrap, a popular front-end framework. 
+
+**MDBootstrap:**
+
+This project utilizes MDBootstrap, a Material Design framework for Bootstrap. 
+
+**W3Schools:**
+
+This project benefited from tutorials and examples found on W3Schools.
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+As the future improvements in this project, I aim to improve the form's responsiveness on mobile devices and potentially expand the website's content offerings. Additionally, incorporating a search engine would provide visitors with a more efficient way to find information.
 
 ### Resources
 
@@ -220,3 +221,5 @@ Briefly discuss potential future improvements or features that could be added to
 - https://getbootstrap.com/docs/4.6/getting-started/introduction/
 - https://github.com/dashboard
 - https://fonts.google.com/
+- https://mdbootstrap.com/
+- https://www.w3schools.com/
