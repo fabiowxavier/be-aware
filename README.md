@@ -17,14 +17,14 @@ This project aims to raise awareness about mental health and connect people stru
 - **User Story 1:** "As a user struggling with mental health, I want to easily find relevant resources and support services in my area."
 
   **Acceptance Criteria:** 
-  - The user can search for resources by location, type of service (e.g., therapy, support groups), or specific mental health condition.
+  - The user can search for resources by location, type of service (e.g., help, support groups, self help, emergency contacts), or specific mental health condition.
   - The search results provide accurate and up-to-date information about the resource, including contact details, website, and hours of operation.
-  - The user can filter search results based on their insurance coverage or preferred language.
+ 
 
 - **User Story 2:** "As a user with a mental health condition, I want to connect with others who understand my experiences and can offer support."
  
   **Acceptance Criteria:**
-   - The platform provides a safe and inclusive space for users to share their stories and experiences.
+
    - Users can join online communities or support groups based on specific mental health conditions or interests.
   - There are features to facilitate private messaging or group discussions.
 
@@ -33,6 +33,7 @@ This project aims to raise awareness about mental health and connect people stru
   - The platform offers a Q&A forum or chat feature where users can ask questions to mental health professionals.
   - The responses from professionals are provided in a timely and informative manner.
   - The platform ensures the privacy and confidentiality of all user information.
+   - The platform takes user to the correct information/help location.
 
 
 
@@ -63,12 +64,12 @@ This project aims to raise awareness about mental health and connect people stru
 
 
 ### Wireframes
- ![Wireframe layout](image-3.png)
+ ![WIREFRAME LAYOUT IMAGE"](assets/images/wireframe.png) 
   - Wireframe and layout planned of a viewport on small screen and big screen 
 
 ### Color palettes
 
-![color pallette](image.png) ![color pallette2](image-1.png) ![color pallette3](image-2.png)
+![COLOR-PALLET"](assets/images/pallet.png) ![COLOR-PALLET1"](assets/images/pallet-1.png) ![COLOR-PALLET2"](assets/images/pallet-2.png)
 
 - Wireframe and layout planned of a viewport on small screen and big screen 
 
@@ -99,6 +100,7 @@ This project aims to raise awareness about mental health and connect people stru
 - I provide clear focus indicators to help users understand which element is currently active.
 - I use a responsive design to ensure that my applications are accessible on various devices, including mobile and tablets.
 - I implement ARIA attributes to provide additional semantic information to assistive technologies.
+- I used alt attributes to all buttons for a better user experience for visually impaired users.
 
 Please not that some elements might not be used*
 
@@ -106,17 +108,70 @@ Please not that some elements might not be used*
 
 ## AI Tools Usage
 
- - I used Gemini, a large language model, to assist me in writing this README. Gemini helped me generate ideas, improve the clarity and structure of the content, and ensure that the README is informative and engaging
+ - I used Gemini, a large language model, to assist me in writing this README. Gemini helped me generate ideas, improve the clarity and structure of the content, and ensure that the README is informative and engaging 
 
 
 ## Testing and Validation 
-#### websites 
- - https://jigsaw.w3.org/css-validator/
- - https://validator.w3.org/
+### websites 
+- https://validator.w3.org/
+- https://jigsaw.w3.org/css-validator/
 
-### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
+### CSS code Testing
+
+![CSS VALIDATOR RESULT](assets/images/css-vali.png)
+ ### Html Code Testing
+
+#### Test Index page
+  ![index validatior image](assets/images/index-vali.png)
+ 
+ #### Test Selfhelp page
+ ![selfhelp-validator](assets/images/self-help vali.png)
+
+  #### Test Form page
+   ![form-validator](assets/images/form-vali.png)
+
+
+## Testing Results
+
+ ### Small Screen
+ #### Small Screen Index Page
+ ![mobile view index](assets/images/index-small.png)
+  #### Small Screen Self Help Page
+ ![mobile view self help](assets/images/gethelp-small.png)
+  #### Small Screen Form Page
+ ![mobile view form](assets/images/form-small.png)
+
+ ### Medium Screen
+ #### Medium Screen Index Page
+ ![tablet view index](assets/images/index-md.png)
+  #### Medium Screen Self Help Page
+ ![tablet  view self help](assets/images/gethelp-md.png)
+  #### Medium Screen Form Page
+ ![tablet  view form](assets/images/form-md.png)
+
+ ### Large Screen
+ #### Large Screen Index page
+ ![Large view index](assets/images/index-full.png)
+  #### Large Screen Self Help Page
+ ![Large view self help](assets/images/gethelp-full.png)
+  #### Large Screen Form Page
+ ![Large view form](assets/images/form-full.png)
+
+ ### Navbar Dropdown
+ ![Navbar dropdown example](assets/images/navdrop-drodown.png)
+
+ ### Footer
+![Footer example](assets/images/footer-full.png)
+
+ ### Problems Found
+
+ #### Sideways Small Screen Problem
+ ![Sideways Small screen problem](assets/images/form-smprob.png)
+
+During testing I found that in small screens when changed the orientation of the screen from portrait to landscape the form gets engulfed by the navbar and footer.Please not that this problem still not fixed*
+
+#### Tools used for finding problems.
+
 **Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
 ### Validation
